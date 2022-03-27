@@ -11,6 +11,7 @@
   inputs.src-pg-master.ref   = "refs/heads/master";
   inputs.src-pg-master.owner = "treeform";
   inputs.src-pg-master.repo  = "pg";
+  inputs.src-pg-master.dir   = "";
   inputs.src-pg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
